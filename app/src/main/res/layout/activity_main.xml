@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Welcome!" />
+
+    <Button
+        android:id="@+id/volunteerInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/welcomeText"
+        android:layout_marginTop="150dp"
+        android:background="#494949"
+        android:gravity="center"
+        android:text="Volunter Info"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/collectDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/volunteerInfoButton"
+        android:layout_marginTop="26dp"
+        android:background="#494949"
+        android:gravity="center"
+        android:text="Collect Data"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/RegisterDeviceButton"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_below="@+id/collectDataButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="196dp"
+        android:background="#494949"
+        android:gravity="center"
+        android:text="Register Device"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+
+</RelativeLayout>
